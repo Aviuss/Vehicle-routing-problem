@@ -9,3 +9,13 @@ In the context of this task, we will consider a simplified version of this probl
     A list of nodes with their respective x and y coordinates determining their position in the world. A node of type 0 is the depot, and the other nodes of type 1 are customer locations.
     A list of vehicles (in our case, only one type of vehicle), along with their home depot and capacity.
     A list of customer demands (shipments), that must be delivered to their destination.
+
+# Installation
+
+```
+python -m venv venv
+source venv/bin/activate
+
+pip install jupyter ipykernel numpy matplotlib
+python -m ipykernel install --user --name=venv
+```
