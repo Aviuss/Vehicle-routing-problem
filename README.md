@@ -16,6 +16,6 @@ In the context of this task, we will consider a simplified version of this probl
 python -m venv venv
 source venv/bin/activate
 
-pip install jupyter ipykernel numpy matplotlib
+pip install jupyter ipykernel numpy matplotlib tqdm
 python -m ipykernel install --user --name=venv
 ```
